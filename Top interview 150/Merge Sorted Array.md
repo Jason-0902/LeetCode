@@ -17,7 +17,7 @@ The goal is to merge nums1 and nums2 into a single array sorted in non-decreasin
 
 Initially, I didn’t realize the arrays were already sorted, so I wrote a solution that simply pushes all elements into a temporary array and sorts it again.
 
-```
+```C++
 class Solution {
 public:
 
@@ -38,4 +38,5 @@ public:
         nums1.clear(); nums1 = tmp;
     }
 };
+
 ```
